@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pick-a-player</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 id="heading"> <span id="truth">Pick </span> a <span id="dare"> Player </span> </h1>
+
+    <section class="container">
+        <table align="center">
+        <tr class="inputdiv">
+        <td><h2>Enter Player Names :  </h2></td>
+        <td><input type="text" id="pname"></td>
+        </tr>
+        <tr class="buttondiv">
+        <td colspan="2">
+            <button class="btn" onclick="addPlayers()"> ADD </button>
+            <button class="btn" onclick="generatePlayer()">Generate </button>
+            <button class="btn" onclick="clearall()">Clear </button>
+        </td>
+    </div>
+</table>
+    </section>
+    <section class="container2">
+        <div id="displaynames">
+
+        
+
+        </div>
+    </section>
+    
+</body>
+<script src = "index.js"></script>
+</html>
